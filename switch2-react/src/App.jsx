@@ -12,7 +12,7 @@ function App() {
         <img src={switch2Logo}></img>
       </div>
       <div class="coming-soon">
-        <h3 id="header">{}</h3>
+        <h3 id="header">Count Down:</h3>
       </div>
       <div class="countdown">
         <CountDown/>

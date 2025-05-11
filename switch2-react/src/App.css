@@ -4,3 +4,25 @@
   padding: 2rem;
   text-align: center;
 }
+
+.title {
+  text-align: center;
+}
+
+.title img {
+  width: 300px;
+}
+
+.coming-soon {
+  font-family: 'New-Super-Mario-Font-U';
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#countdown {
+    text-align: center;
+    font-family: 'New-Super-Mario-Font-U';
+    color: white;
+    font-size: 35px;
+}
