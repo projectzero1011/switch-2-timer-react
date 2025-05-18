@@ -10,11 +10,16 @@ function App() {
       <div className="title">
         <img src={switch2Logo}></img>
       </div>
-      <div className="coming-soon">
-        <h3 id="header">Count Down:</h3>
-      </div>
-      <div id="countdown">
+      <div id="timers">
+        <div className="countdown">
         <CountDown launch={launchDate}/>
+        </div>
+        <div className="countdown">
+          <CountDown launch={launchDate}/>
+        </div>
+        <div className="countdown">
+          <CountDown launch={launchDate}/>
+        </div>
       </div>
     </>
   )
