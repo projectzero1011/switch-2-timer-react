@@ -33,8 +33,7 @@ function CountDown({launch}) {
 	return (
 		<>
 			<div>
-				{`${pad(days)} days ${pad(hrs)} hrs 
-        ${pad(mins)} mins ${pad(secs)} secs`}
+				{content}
 			</div>
 		</>
 	)
