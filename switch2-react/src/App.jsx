@@ -1,21 +1,20 @@
-import { useState } from 'react'
 import switch2Logo from './assets/switch2imgmini.png'
 import CountDown from './CountDown'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const launchDate = "06/05/2025 12:01 AM";
 
   return (
     <>
-      <div class="title">
+      <div className="title">
         <img src={switch2Logo}></img>
       </div>
-      <div class="coming-soon">
+      <div className="coming-soon">
         <h3 id="header">Count Down:</h3>
       </div>
-      <div class="countdown">
-        <CountDown/>
+      <div id="countdown">
+        <CountDown launch={launchDate}/>
       </div>
     </>
   )
