@@ -24,6 +24,12 @@ function CountDown({launch}) {
 
 	const pad = n => String(n).padStart(2, "0");
 
+	const timerContent = 
+	`${pad(days)} days ${pad(hrs)} hrs 
+	${pad(mins)} mins ${pad(secs)} secs`;
+
+	let content = timeLeft > 0 ? timerContent : "Switch 2 is out! 🎉"
+
 	return (
 		<>
 			<div>
