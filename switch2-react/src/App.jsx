@@ -12,7 +12,7 @@ function App() {
       </div>
       <div id="timers">
         <div className="countdown">
-        <CountDown launch={launchDate}/>
+          <CountDown launch={launchDate}/>
         </div>
         <div className="countdown">
           <CountDown launch={launchDate}/>
